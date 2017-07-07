@@ -6,16 +6,25 @@
 
 
 header {
+    overflow: hidden;
     background-image: url(../img/coffeeshade.jpg);
     background-position: center;
     background-size: cover;
 }
 
-header .row .col-sm-3 {
+.container {
     margin: 0 auto;
+    width: 100vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5rem;
+    
+}
+
+.head_logo {
     background-image: url(../img/logo.png);
     height: 28vh;
-    width: 100vw;
     background-repeat:  no-repeat;
     background-size: contain;
     background-position: center
@@ -25,13 +34,56 @@ nav {
     margin: 0, auto;
     display: inline-block;
 }
-nav button {
-    text-decoration: none;
-    display: block;
-    background-color: #fadcad
+
+p {
+    text-align: center;
 }
 
-section .row .col-sm-3 {
+nav ul button {
+    background-color: #fadcad;
+    height: 5em;
+    width: 70vw;
+    margin: 1em;
+    line-height: 5em;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    border: 2px solid #ba7753;
+    border-radius: 5px;
+//    text-align: center;
+//    vertical-align: middle;
+    
+    
+}
+button a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+    
+
+}
+
+button a:after {
+  content: '\00bb';
+//  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+button:hover a {
+  padding-right: 25px;
+}
+
+button:hover a:after {
+  opacity: 1;
+  right: 0;
+}
+
+section .container {
     background-position: center;
     background-color: #331201;
     height: 60vh;
@@ -42,37 +94,32 @@ section .row .col-sm-3 {
     align-items: center;
         
 }
+
+.container  {
+  overflow: hidden;
     
-ul button {
-    height: 3em;
-    width: 70vw;
-    margin: 1em;
-    line-height: 3em;
-    font-weight: bold;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-content: center;
-    align-items: center;
-    border: none;
-    border-radius: 5px;
-    text-align: center;
-    vertical-align: middle;
 }
 
+
 footer {
+    display: flex;
+    justify-content: space-around;
     background-color: #ba7753;
     height: 12vh;
     width: 100vw;
 }
     
 .adress {
-    float: left;
+//    float: left;
     display: inline-block;
+    text-align: left;
+    
+    
 }
 
 .hours {
     display: inline-block;
-    float: right;
+//    float: right;
+    text-align: right;
 }
 
