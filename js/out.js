@@ -115,7 +115,7 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, "* {\n  margin: 0;\n  padding: 0; }\n\nhtml {\n  -ms-text-size-adjust: 100%;\n  -webkit-text-size-adjust: 100%; }\n\n@media (min-width: 320px) {\n  header .row .col-sm-3 {\n    margin: 0 auto;\n    background-image: url(" + __webpack_require__(8) + ");\n    height: 28vh;\n    width: 100vw;\n    background-repeat: no-repeat;\n    background-size: contain;\n    background-position: center; }\n  nav {\n    margin: 0, auto;\n    display: inline-block; }\n  nav button {\n    text-decoration: none;\n    display: block;\n    background-color: #fadcad; }\n  section .row .col-sm-3 {\n    background-position: center;\n    background-color: #331201;\n    height: 60vh;\n    width: 100vw;\n    display: flex;\n    justify-content: space-around;\n    align-content: center;\n    align-items: center; }\n  ul button {\n    height: 3em;\n    width: 70vw;\n    margin: 1em;\n    line-height: 3em;\n    font-weight: bold;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-around;\n    align-content: center;\n    align-items: center;\n    border: none;\n    border-radius: 5px;\n    text-align: center;\n    vertical-align: middle; }\n  footer.col-sm-3 {\n    background-color: #8f3200;\n    height: 12vh;\n    width: 100vw;\n    display: flex;\n    justify-content: space-around;\n    align-content: center;\n    align-items: center; } }\n", ""]);
+exports.push([module.i, "* {\n  margin: 0;\n  padding: 0; }\n\nheader {\n  background-image: url(" + __webpack_require__(6) + ");\n  background-position: center;\n  background-size: cover; }\n\nheader .row .col-sm-3 {\n  margin: 0 auto;\n  background-image: url(" + __webpack_require__(7) + ");\n  height: 28vh;\n  width: 100vw;\n  background-repeat: no-repeat;\n  background-size: contain;\n  background-position: center; }\n\nnav {\n  margin: 0, auto;\n  display: inline-block; }\n\nnav button {\n  text-decoration: none;\n  display: block;\n  background-color: #fadcad; }\n\nsection .row .col-sm-3 {\n  background-position: center;\n  background-color: #331201;\n  height: 60vh;\n  width: 100vw;\n  display: flex;\n  justify-content: space-around;\n  align-content: center;\n  align-items: center; }\n\nul button {\n  height: 3em;\n  width: 70vw;\n  margin: 1em;\n  line-height: 3em;\n  font-weight: bold;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  align-content: center;\n  align-items: center;\n  border: none;\n  border-radius: 5px;\n  text-align: center;\n  vertical-align: middle; }\n\nfooter {\n  background-color: #ba7753;\n  height: 12vh;\n  width: 100vw; }\n\n.adress {\n  float: left;\n  display: inline-block; }\n\n.hours {\n  display: inline-block;\n  float: right; }\n", ""]);
 
 // exports
 
@@ -657,9 +657,13 @@ module.exports = function (css) {
 
 
 /***/ }),
-/* 6 */,
-/* 7 */,
-/* 8 */
+/* 6 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "/img/coffeeshade.jpg";
+
+/***/ }),
+/* 7 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "/img/logo.png";
