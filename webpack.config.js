@@ -27,11 +27,11 @@ module.exports	=	{
 			},
 			{
 				test   : /\.css$/,
-				loaders: ['style-loader', 'css-loader']
+				loaders: ['style-loader', 'css-loader?-url']
 			},
 			{
 				test: /\.scss$/,		
-				loaders: ['style-loader', 'css-loader', 'sass-loader']
+				loaders: ['style-loader', 'css-loader?-url', 'sass-loader']
 			}
 		]
 	}
